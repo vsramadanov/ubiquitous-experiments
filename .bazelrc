@@ -1,0 +1,8 @@
+# Common build options
+build --copt="-Wall"
+build --copt="-Wextra"
+build --copt="-Wpedantic"
+build --copt="-march=native"
+build --copt="-std=c++2a"
+build --copt="-O3"
+build --copt="-g3"
